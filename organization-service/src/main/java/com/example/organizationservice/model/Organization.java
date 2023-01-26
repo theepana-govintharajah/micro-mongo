@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 public class Organization {
     @Id
-    private int id;
+    private Long id;
     private String name;
     private String phoneNumber;
     private String email;
